@@ -1,18 +1,19 @@
+import java.util.Arrays;
 
 public class Main {
     Figura[] arrayfiguras = new Figura[]{};
 
 
-    public static int sumaFiguras(Figura[] l){
-
-
-        return 0;
+    public static double sumaFiguras(Figura[] l){
+        double res = 0;
+        for(Figura f : l){
+            //res += f.getArea();
+        }
+        return res;
     }
 
-    public static int ordenaFiguras(Figura[] l){
-
-
-        return 0;
+    public static void ordenaFiguras(Figura[] l){
+        Arrays.sort(l);
     }
 
     public static void main(String[] args) {
