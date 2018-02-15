@@ -1,8 +1,9 @@
-public class Cercle {
+public class Cercle extends Figura{
 
     private double radi;
 
-    public double calcularAreaCercle(){
+    @Override
+    public double getArea(){
         return Math.PI*Math.pow(getRadi(),2);
     }
 

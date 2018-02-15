@@ -1,11 +1,8 @@
-public class Rectangle {
+public class Rectangle extends Figura{
 
     private double l1;
     private double l2;
 
-    public double calcularAreaRectangle(){
-        return l1 * l2;
-    }
 
     public Rectangle(double l1, double l2){
         this.l1 = l1;
@@ -24,5 +21,10 @@ public class Rectangle {
     }
     public void setL2(int l2) {
         this.l2 = l2;
+    }
+
+    @Override
+    public double getArea(){
+        return l1 * l2;
     }
 }
