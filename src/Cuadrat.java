@@ -4,7 +4,6 @@ public class Cuadrat {
     public int getL() {
         return l;
     }
-
     public void setL(int l) {
         this.l = l;
     }

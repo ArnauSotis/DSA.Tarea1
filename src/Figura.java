@@ -1,9 +1,5 @@
 
-class Figura {
+abstract class Figura {
 
-    public double area(){
-
-        return 0;
-
-    }
+    public abstract double area();
 }
