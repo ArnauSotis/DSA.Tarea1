@@ -23,8 +23,8 @@ public class Rectangle extends Figura{
         this.l2 = l2;
     }
 
-    @Override
     public double getArea(){
-        return l1 * l2;
+        return getL1()*getL2();
     }
+
 }
