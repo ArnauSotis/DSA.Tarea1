@@ -3,8 +3,7 @@ public class Cercle {
     private double radi;
 
     public double calcularAreaCercle(){
-        //Pi*sqr(radi)
-        return getRadi() *6.28;  //!!!!Cuidado, es un double!!!!!
+        return Math.PI*Math.pow(getRadi(),2);
     }
 
     public double getRadi() {
