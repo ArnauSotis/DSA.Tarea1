@@ -1,10 +1,18 @@
 public class Cercle {
-    int radi;
+    private int radi;
 
 
     public double calcularAreaCercle(){
 
-        return radi*6.28;  //!!!!Cuidado, es un double!!!!!
+        return getRadi() *6.28;  //!!!!Cuidado, es un double!!!!!
 
+    }
+
+    public int getRadi() {
+        return radi;
+    }
+
+    public void setRadi(int radi) {
+        this.radi = radi;
     }
 }
