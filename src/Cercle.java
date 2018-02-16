@@ -8,7 +8,7 @@ public class Cercle extends Figura{
     }
 
     public double getRadi() {
-        return radi;
+        return (int) radi; //Cambio a int
     }
     public void setRadi(double radi) {
         this.radi = radi;

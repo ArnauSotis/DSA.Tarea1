@@ -23,8 +23,9 @@ public class Rectangle extends Figura{
         this.l2 = l2;
     }
 
-    public double getArea(){
-        return getL1()*getL2();
+    public double getArea()
+    {
+        return (int) getL1()*getL2(); // Un int y un double no son el mismo número, no existe el cast, se redondea.
     }
 
 }

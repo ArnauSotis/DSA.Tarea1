@@ -5,7 +5,7 @@ public class GestorFigures {
     public static double sumaFiguras(Figura[] l){
         double res = 0;
         for(Figura f : l){
-            //res += f.getArea();
+            res += f.getArea();
         }
         return res;
     }

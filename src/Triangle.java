@@ -22,6 +22,6 @@ public class Triangle extends Figura {
     }
 
     public double getArea(){
-        return getBase()*getAltura()/2;
+        return ((int) getBase() * getAltura() / 2);
     }
 }
