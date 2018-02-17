@@ -12,19 +12,19 @@ public class Main {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Escriu la figura (Quadrat, Rectangle, Cercle, Triangle)");
             String figura = scanner.nextLine();
-          if (figura=="Quadrat"){
+          if (figura.equals("Quadrat")){
               LOGGER.info("Escriu la longitud de l"); //Falta acabar tot això
               String l = scanner.nextLine();
           }
-          if (figura=="Rectangle"){
+          if (figura.equals("Rectangle")){
               LOGGER.info("Escriu la longitud de l1");
               String l1 = scanner.nextLine();
           }
-          if (figura=="Cercle"){
+          if (figura.equals("Cercle")){
               LOGGER.info("Escriu la longitud de radi");
               String radi = scanner.nextLine();
           }
-          if (figura=="Triangle"){
+          if (figura.equals("Triangle")){
               LOGGER.info("Escriu la longitud de base");
               String base = scanner.nextLine();
           }
